@@ -23,7 +23,7 @@ Execute the C Program for the desired output.
 ## Write a C program that illustrates two processes communicating using shared memory.
 
 //shm.c
-
+```
 #include<unistd.h> 
 #include<stdlib.h> 
 #include<stdio.h> 
@@ -69,11 +69,11 @@ if (shmdt(shared_memory) == -1)
 fprintf(stderr, "shmdt failed\n"); exit(EXIT_FAILURE);
 } exit(EXIT_SUCCESS);
 }
-
+```
 
 
 //shmry2.c
-
+```
 #include<unistd.h> 
 #include<stdlib.h> 
 #include<stdio.h> 
@@ -119,7 +119,7 @@ if (shmdt(shared_memory) == -1)
 fprintf(stderr, "shmdt failed\n"); exit(EXIT_FAILURE);
 } exit(EXIT_SUCCESS);
 }
-
+```
 
 
 
